@@ -1,0 +1,6 @@
+{
+  "name": "Property World",
+  "description": "Premium real estate platform by Property World Builders & Developers showcasing exclusive resort plots, luxury farmhouses, and quality apartments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
