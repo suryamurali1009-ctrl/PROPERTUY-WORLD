@@ -51,8 +51,8 @@ export default function Navbar({
       id="main-nav"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-lg shadow-md py-3'
-          : 'bg-white/60 backdrop-blur-sm py-4'
+          ? 'bg-white/70 backdrop-blur-xl border-b border-slate-200/40 shadow-md py-3'
+          : 'bg-white/40 backdrop-blur-md py-4 border-b border-slate-100/10'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,15 +66,18 @@ export default function Navbar({
               <Home className="w-5 h-5 text-slate-950" />
             </div>
             <div>
-              <div className="flex items-center space-x-1.5">
-                <span className="font-sans font-black tracking-tight text-slate-900 text-base sm:text-lg">
+              <div className="flex items-center space-x-1.5 leading-none">
+                <span className="font-sans font-black tracking-tight text-slate-900 text-sm sm:text-base">
                   PROPERTY WORLD
                 </span>
-                <span className="px-1.5 py-0.5 text-[9px] font-mono tracking-widest uppercase bg-emerald-50 text-emerald-700 rounded border border-emerald-250 font-bold">
+                <span className="px-1.5 py-0.5 text-[8px] font-mono tracking-widest uppercase bg-emerald-50 text-emerald-700 rounded border border-emerald-250 font-bold leading-none shrink-0">
                   SINCE 1983
                 </span>
               </div>
-              <span className="block text-[11px] sm:text-xs font-serif italic text-emerald-650 font-black tracking-wide capitalize antialiased">
+              <span className="block text-[8px] sm:text-[9.5px] font-mono font-black uppercase text-slate-500 tracking-widest leading-none mt-0.5">
+                Builders & Developers
+              </span>
+              <span className="block text-[9.5px] sm:text-xs font-serif italic text-emerald-650 font-black tracking-wide capitalize antialiased mt-0.5">
                 "{BUILDER_BIO.slogan}"
               </span>
             </div>

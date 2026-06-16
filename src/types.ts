@@ -15,6 +15,7 @@ export interface Property {
   longDescription: string;
   features: string[];
   image: string; // URL of illustration or stock photo
+  images?: string[]; // Additional multiple photos of houses for sale
   contactNumbers: string[];
   isPremium?: boolean;
   installmentsAvailable: boolean;

@@ -25,6 +25,11 @@ export const PROPERTIES: Property[] = [
       'Low entry point with flexible monthly installments'
     ],
     image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200',
+    images: [
+      'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200'
+    ],
     contactNumbers: ['9731308328', '9743395619'],
     isPremium: true,
     installmentsAvailable: true,
@@ -56,6 +61,10 @@ export const PROPERTIES: Property[] = [
       'Electricity lines and high-yield borewell systems'
     ],
     image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=1200',
+    images: [
+      'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1200'
+    ],
     contactNumbers: ['9731308328', '9743395619'],
     isPremium: true,
     installmentsAvailable: true,
@@ -87,6 +96,10 @@ export const PROPERTIES: Property[] = [
       'Prime location with immediate links to NH-44 highway'
     ],
     image: 'https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&q=80&w=1200',
+    images: [
+      'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1200'
+    ],
     contactNumbers: ['9740589739', '9731308328'],
     isPremium: true,
     installmentsAvailable: false,
@@ -117,6 +130,10 @@ export const PROPERTIES: Property[] = [
       'Premium solid copper wiring & branded sanitaries'
     ],
     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1200',
+    images: [
+      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=1200'
+    ],
     contactNumbers: ['9731308328', '9740589739'],
     isPremium: false,
     installmentsAvailable: false,
